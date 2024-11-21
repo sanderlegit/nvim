@@ -54,6 +54,6 @@ vim.cmd [[hi! TabLine ctermbg=NONE guibg=NONE]]
 vim.cmd [[hi! NeoTreeTabInactive ctermbg=NONE guibg=NONE]]
 vim.cmd [[hi! NeoTreeTabSeparatorInactive ctermbg=NONE guibg=NONE]]
 
-vim.schedule(function() vim.opt.clipboard = "unnamedplus" end)
+-- vim.schedule(function() vim.opt.clipboard = "unnamedplus" end)
 
 vim.keymap.set("v", "D", '"_d', { noremap = true, silent = true })
